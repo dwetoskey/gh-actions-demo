@@ -18,9 +18,9 @@ jobs:
         uses: actions/checkout@v1
       # Install NodeJS
       - name: Use Node.js 12.x
-      uses: actions/setup-node@v1
-      with: 
-        node-verstion: 12.x
+        uses: actions/setup-node@v1
+        with: 
+          node-verstion: 12.x
       # Build the app
       - name: 🧰 install deps
         run: npm install
